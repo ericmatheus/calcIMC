@@ -56,8 +56,6 @@ const imcInfo = document.querySelector("#imc-info span");
 
 const backBtn = document.querySelector("#back-btn")
 
-
-
 //Funções
 
 function createTable(data){
@@ -93,9 +91,6 @@ function cleanInputs(){
 
 }
 
-
-
-
 function validDigits(text){ //Função para validar os digitos nos inputs
   return text.replace(/[^0-9,]/g,""); // permite entrada dos digitos de 0 ate 9 e de virgula; g por ser regra global/texto todo; "" para subistituir por vazio
 }
@@ -113,11 +108,9 @@ function showOrHideResults(){
 
 }
 
-
 //Inicialização
 
 createTable(data);
-
 
 //Eventos
 [heightInput, weightInput].forEach((el) => {
@@ -179,12 +172,7 @@ calcBtn.addEventListener("click", (e) => {
   console.log(info);
   console.log(imcNumber.classList);
 
-
-
-
-
   showOrHideResults();
-
 })
 
 
