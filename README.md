@@ -4,7 +4,7 @@
 
 [Link do site](https://cool-beijinho-3b3a1c.netlify.app/)
 
-Este projeto consiste em um calculadora de IMC(Índice de Massa Corporal), usando as tencologias HTML, css e JavaScript. 
+Este projeto consiste em uma calculadora de IMC(Índice de Massa Corporal), usando as tencologias HTML, css e JavaScript. 
 
 
 ## Layout web >>> 🚧  EM CONSTRUÇÃO  🚧
@@ -12,7 +12,9 @@ Este projeto consiste em um calculadora de IMC(Índice de Massa Corporal), usand
 
 # Tecnologias utilizadas 
 ## Front end
-- HTML / CSS / JavaScript
+- HTML / CSS
+## Back end
+- JavaScript
 ## Implantação em produção
 - Front end web: Netlify
 
